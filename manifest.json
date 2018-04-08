@@ -1,0 +1,18 @@
+{
+  "manifest_version":2,
+  "name": "Plop tab",
+  "description": "This extension will let the user pick their urls then
+  open up url's when the user presses the button",
+  "version": "1.0",
+  "options_page": "options.html",
+  "background":
+  {
+    "scripts":["background.js"]
+  },
+  "icons": {"128":"icon_128.png"},
+  "browser_action":
+  {
+    "default_icon": "icon.png"
+  },
+  "permissions":["tabs","storage"]
+}
